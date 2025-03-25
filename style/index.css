@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+
+  h1,
+  p {
+    margin: 0;
+  }
+  h1 {
+    font-family: "Rubik Broken Fax", system-ui;
+    font-size: 10rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #game-board {
+    width: fit-content;
+    opacity: 0.96;
+    display: grid;
+    grid-template-rows: repeat(20, 30px);
+    grid-template-columns: repeat(10, 30px);
+    gap: 2px;
+    margin: 10px auto;
+    background-color: #171717ab;
+    padding: 10px;
+
+    .cell {
+      width: 30px;
+      height: 30px;
+      background-color: #0f1f34;
+      border: 1px solid #ed590fa9;
+    }
+
+    .filled {
+      opacity: 0.96;
+      background-color: #77f9f9f1;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+}
