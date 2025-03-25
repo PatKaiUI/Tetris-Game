@@ -21,9 +21,12 @@ body {
   }
   h1 {
     font-family: "Rubik Broken Fax", system-ui;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 400;
     font-style: normal;
+  }
+  p {
+    font-size: 2rem;
   }
 
   #game-board {
