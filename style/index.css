@@ -13,20 +13,21 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  color: white;
+  color: #f3f3f3;
 
   h1,
   p {
-    margin: 0;
+    margin: 0px auto;
+    padding: 10px;
   }
   h1 {
     font-family: "Rubik Broken Fax", system-ui;
-    font-size: 8rem;
+    font-size: 7.2rem;
     font-weight: 400;
     font-style: normal;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #game-board {
