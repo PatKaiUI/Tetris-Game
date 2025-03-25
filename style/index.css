@@ -10,13 +10,14 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(../public/img/background.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-repeat: no-repeat;
   height: 100vh;
   color: #f3f3f3;
 
   h1,
   p {
+    width: fit-content;
     margin: 0px auto;
     padding: 10px;
   }
