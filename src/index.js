@@ -7,7 +7,7 @@ const SHAPES = [
     [1, 1],
     [1, 1],
   ], // O
-  [[1, 1, 1]], // T (vereinfacht)
+  [[1, 1, 1]], // I (vereinfacht)
   [
     [0, 1, 0],
     [1, 1, 1],
